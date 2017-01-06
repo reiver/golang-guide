@@ -8,6 +8,7 @@ Welcome to the **Golang Guide**.
   * ["Go" versus "Golang"](#go-versus-golang)
 * [For Beginners](#for-beginners)
   * [A Tour of Go](#a-tour-of-go)
+  * [Go database/sql Tutorial]
 * [Development Environment](#development-environment)
 
 ---------------------------------------
@@ -102,6 +103,26 @@ better 🙂)
 If you are just starting to learn Go, I suggest you start there.
 
 You can even write Go code in the web browser, and run it!
+
+## Go database/sql Tutorial
+
+Another good tutorial to read is the _Go database/sql Tutorial_.
+
+http://go-database-sql.org/
+
+Basically, it teaches you how to work with database from the
+Go programming language.
+
+Note that somewhat deceivingly, the Go built-in (software) library
+for working with databases (which the _Go database/sql Tutorial_
+covers) is called `"database/sql"`.
+
+This is somewhat deceiving because, although it is called "sql",
+there isn't really anything SQL-specific or even relational-database-specific
+about it.
+
+In fact, there are some non-relational databases that have Go
+client libraries that work with `"database/sql"`
 
 ---------------------------------------
 
