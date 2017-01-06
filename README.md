@@ -109,7 +109,7 @@ https://tour.golang.org/
 I found it helpful.
 
 (Looking at it now, it looks like it has been enhanced since I
-originally went though it. So I would expect it to be even
+originally went through it. So I would expect it to be even
 better 🙂)
 
 If you are just starting to learn Go, I suggest you start there.
@@ -187,7 +187,7 @@ From the comamnd line, running it would look something like:
 $ ./myprogram
 Hello human
 ```
-Hint: figure out how to use the `fmt.Println()` func: https://golang.org/pkg/fmt/#Println
+(ℹ) **Hint**: figure out how to use the `fmt.Println()` func: https://golang.org/pkg/fmt/#Println
 
 ## Task #2: Hello ?
 
@@ -207,10 +207,43 @@ $ ./myprogram Fred
 Hello Fred
 ```
 
-Hint #1: figure out how to use the `fmt.Printf()` func: https://golang.org/pkg/fmt/#Printf
+(ℹ) **Hint #1**: figure out how to use the `fmt.Printf()` func: https://golang.org/pkg/fmt/#Printf
 
-Hint #2: figure out how to use the `os.Args` variable: https://golang.org/pkg/os/#pkg-variables
+(ℹ) **Hint #2**: figure out how to use the `os.Args` variable: https://golang.org/pkg/os/#pkg-variables
 
+## Task #3: Hello ?, Hi ?, etc
+
+This task is (again) very similar to the previous one, but does one thing a little different.
+
+Just like the previous one if you run it like before, it will output stuff like "Hello Joe", "Hello Fred", etc, if you run it like:
+```bash
+$ ./myprogram Joe
+Hello Joe
+```
+... or:
+```bash
+$ ./myprogram Fred
+Hello Fred
+```
+But now, we want to be also able to change "Hello" to something else. Maybe "Hi". Maybe "Howdy".
+(I.e., we want to be able to change the _greeting_ text.)
+
+We want to be specify the greeting text using a command line flag.
+
+More specifically, if we run it like the following we want:
+```bash
+$ ./myprogram Fred --greeting=Hi
+Hi Fred
+```
+... and:
+```bash
+$ ./myprogram --greeting=Howdy Thomas
+Howdy Thomas
+```
+
+(ℹ) **Hint**: figure out how to use the `"flag"` package: https://golang.org/pkg/flag/
+
+(The order that the flag appears should not matter.)
 
 ---------------------------------------
 
