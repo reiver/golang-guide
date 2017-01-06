@@ -2,8 +2,10 @@
 
 Welcome to the **Golang Guide**.
 
-* [Why](#why)
-* ["Go" versus "Golang"](#go-versus-golang)
+* Introduction
+** [Why](#why)
+** [Contacting Me](#contacting-me)
+** ["Go" versus "Golang"](#go-versus-golang)
 
 ## Why
 
@@ -18,6 +20,12 @@ to solve certain kinds of problems.
 
 I have made this guide public, so if other individuals out there
 find utility in this guide, that's great! 🙂
+
+## Contacting Me
+
+If you wish to contact me, the easiest ways are on Twitter: [@reiver](https://twitter.com/reiver)
+or on the [VanTech slack](http://vantech.herokuapp.com/)'s
+[#golang](https://vantech.slack.com/messages/golang/) channel.
 
 ## "Go" versus "Golang"
 
