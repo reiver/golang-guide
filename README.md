@@ -76,7 +76,7 @@ Although in this guide I'm trying to write "Go" more than I do normally.)
 
 # For Beginners
 
-I learned Go after I had been already programming for around a couple decades.
+I learned Go after I had been already programming for more than a couple decades.
 
 I think it is a good programming language to learn for both beginners and the experienced.
 
