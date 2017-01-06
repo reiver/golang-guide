@@ -13,6 +13,22 @@ skill and experience levels, learn Go.
 And have helped these same individuals figure out how to use Go
 to solve certain kinds of problems.
 
-If other individuals out there find utility in this guide, that's great! 🙂
+I have made this guide public, so if other individuals out there
+find utility in this guide, that's great! 🙂
 
+## "Go" versus "Golang"
 
+If you are just starting to get into Go, you may have noticed the word "Golang"
+used sometimes.
+
+To clear up any potentia confusion, "Go" and "Golang" are the exact same thing!
+
+Officially, the programming language is named "Go".
+
+But many many individuals refer to it "Golang".
+
+(If you are curious what I typically do, I tend to usually say "Go" and write "Golang".
+Although in this guide I'm trying to write "Go" more than I do normally.)
+
+(If you are trying to find information on it in a search engine, my experience is that using
+"golang" seems to work better.)
