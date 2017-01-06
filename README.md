@@ -3,9 +3,9 @@
 Welcome to the **Golang Guide**.
 
 * Introduction
-** [Why](#why)
-** [Contacting Me](#contacting-me)
-** ["Go" versus "Golang"](#go-versus-golang)
+  * [Why](#why)
+  * [Contacting Me](#contacting-me)
+  * ["Go" versus "Golang"](#go-versus-golang)
 
 ## Why
 
