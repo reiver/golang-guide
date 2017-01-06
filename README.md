@@ -8,7 +8,7 @@ Welcome to the **Golang Guide**.
   * ["Go" versus "Golang"](#go-versus-golang)
 * [For Beginners](#for-beginners)
   * [A Tour of Go](#a-tour-of-go)
-  * [Go database/sql Tutorial]
+  * [Go database/sql Tutorial](#go-databasesql-tutorial)
 * [Development Environment](#development-environment)
 
 ---------------------------------------
