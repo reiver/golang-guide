@@ -9,6 +9,7 @@ Welcome to the **Golang Guide**.
 * [For Beginners](#for-beginners)
   * [A Tour of Go](#a-tour-of-go)
 * [Development Environment](#development-environment)
+* [Tasks for Go Beginners](#tasks-for-go-beginners)
 * [Databases](#databases)
   * [Go database/sql Tutorial](#go-databasesql-tutorial)
 
@@ -146,6 +147,70 @@ Now note, this does **not** mean I am editing files within the docker container.
 But what it does mean it that I am _compiling_ Go code in the docker container.
 
 And it means that I am running tests in the docker container.
+
+---------------------------------------
+
+# Tasks for Go Beginners
+
+I have found that an effective way to help individuals learn Go,
+or other programming languages, or even the (software) libraries or
+systems you have, and in particular to learn it to be able to do
+"useful" things, **is to give the person a list of tasks to complete**.
+
+The purpose of these tasks are to give you _no choice_ but to learn certain things.
+
+You might struggle.
+
+You might have to read stuff to figure out how to accomplish the tasks.
+
+You might have to try a bunch of stuff (and fail) until you find something that works.
+
+But eventually (hopefully) you will figure out how to do that thing.
+
+**If you are serious about learning this stuff, do every single task**
+
+Even if it seems easy, do it.
+
+You learn things in a different (deeper) way when you do them, rathe than just read them.
+
+There things you can learn from reading. But there are other things you can
+only really learn by doing.
+
+Do each and every task.
+
+## Task #1: Hello human
+
+Create a program that outputs the text: "Hello human"
+
+From the comamnd line, running it would look something like:
+```bash
+$ ./myprogram
+Hello human
+```
+Hint: figure out how to use the `fmt.Println()` func: https://golang.org/pkg/fmt/#Println
+
+## Task #2: Hello ?
+
+This task is very similar to the previous one, but does one thing a little different.
+
+Instead of outputting "Hello human", instead of using "human", it will use a name it gets from the command line.
+
+So, from the comamnd line, running it like the following would give you:
+```bash
+$ ./myprogram Joe
+Hello Joe
+```
+
+And, from the comamnd line, running it like the following would give you:
+```bash
+$ ./myprogram Fred
+Hello Fred
+```
+
+Hint #1: figure out how to use the `fmt.Printf()` func: https://golang.org/pkg/fmt/#Printf
+
+Hint #2: figure out how to use the `os.Args` variable: https://golang.org/pkg/os/#pkg-variables
+
 
 ---------------------------------------
 
