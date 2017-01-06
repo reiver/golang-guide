@@ -32,7 +32,7 @@ or on the [VanTech slack](http://vantech.herokuapp.com/)'s
 If you are just starting to get into Go, you may have noticed the word "Golang"
 used sometimes.
 
-To clear up any potentia confusion, "Go" and "Golang" are the exact same thing!
+To clear up any potential confusion, "Go" and "Golang" are the exact same thing!
 
 Officially, the programming language is named "Go".
 
