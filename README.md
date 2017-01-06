@@ -8,8 +8,9 @@ Welcome to the **Golang Guide**.
   * ["Go" versus "Golang"](#go-versus-golang)
 * [For Beginners](#for-beginners)
   * [A Tour of Go](#a-tour-of-go)
-  * [Go database/sql Tutorial](#go-databasesql-tutorial)
 * [Development Environment](#development-environment)
+* [Databases](#databases)
+  * [Go database/sql Tutorial](#go-databasesql-tutorial)
 
 ---------------------------------------
 
@@ -17,7 +18,7 @@ Welcome to the **Golang Guide**.
 
 The Go programming language is usually used for **backend development**.
 
-Although it is also sometimes use for _frontend development_ and _mobile development_.
+Although it is also sometimes used for _frontend development_ and _mobile development_.
 
 I personally mostly use it for _backend development_. but also use it
 for _data science_ and _machine learning_ activities too.
@@ -34,8 +35,10 @@ import (
 func main() {
 	fmt.Println("Hello world! 🙂")
 }
-
 ```
+
+You can run it if you go to this URL:
+https://play.golang.org/p/lKbTIlvNnf
 
 ## Why
 
@@ -51,11 +54,17 @@ to solve certain kinds of problems.
 I have made this guide public, so if other individuals out there
 find utility in this guide, that's great! 🙂
 
+But for me, my motivation is that I want a URL I can send someone to
+get them started with learning Go, before I help them in-person.
+
 ## Contacting Me
 
 If you wish to contact me, the easiest ways are on Twitter: [@reiver](https://twitter.com/reiver)
 or on the [VanTech slack](http://vantech.herokuapp.com/)'s
 [#golang](https://vantech.slack.com/messages/golang/) channel.
+
+(If you are reading this because you either work with me, or are _going to_ be working with me,
+then use my work e-mail address. Which I won't include here, since I have made this guide public 🙂)
 
 ## "Go" versus "Golang"
 
@@ -80,13 +89,15 @@ Although in this guide I'm trying to write "Go" more than I do normally.)
 
 I learned Go after I had been already programming for more than a couple decades.
 
-I think it is a good programming language to learn for both beginners and the experienced.
+I think it is a good programming language to learn for both _beginners_ and _the experienced_.
 
 I like Go.
 
 I program in it a work.
 
 And it is the programming language I use when I program for fun.
+
+(Truth be told, I am the reason it is being used at a number of companies 🙂)
 
 ## A Tour of Go
 
@@ -104,25 +115,7 @@ If you are just starting to learn Go, I suggest you start there.
 
 You can even write Go code in the web browser, and run it!
 
-## Go database/sql Tutorial
-
-Another good tutorial to read is the _Go database/sql Tutorial_.
-
-http://go-database-sql.org/
-
-Basically, it teaches you how to work with database from the
-Go programming language.
-
-Note that somewhat deceivingly, the Go built-in (software) library
-for working with databases (which the _Go database/sql Tutorial_
-covers) is called `"database/sql"`.
-
-This is somewhat deceiving because, although it is called "sql",
-there isn't really anything SQL-specific or even relational-database-specific
-about it.
-
-In fact, there are some non-relational databases that have Go
-client libraries that work with `"database/sql"`
+Read and go through the _Go tour_, and when you finish, come back to this guide.
 
 ---------------------------------------
 
@@ -153,3 +146,43 @@ Now note, this does **not** mean I am editing files within the docker container.
 But what it does mean it that I am _compiling_ Go code in the docker container.
 
 And it means that I am running tests in the docker container.
+
+---------------------------------------
+
+# Databases
+
+If you are doing any kind of _backend development_, there is a high probability that you will be using a database.
+
+If not now, then some time in the future.
+
+There are a number of different types of things that get called "databases".
+
+Some are similar to each other.
+
+Some are somewhat different from each other.
+
+And some are very very different.
+
+## Go database/sql Tutorial
+
+Go has a built-in (software) library for dealing with a number of different types of databases.
+
+More specifically, its ["database/sql"](https://golang.org/pkg/database/sql/) package.
+
+Another good tutorial to read to start to understand this is the _Go database/sql Tutorial_.
+
+http://go-database-sql.org/
+
+Basically, it teaches you how to work with the most common form
+databases from the Go programming language.
+
+Note that somewhat deceivingly, the Go built-in (software) library
+for working with databases (which the _Go database/sql Tutorial_
+covers) is called `"database/sql"`.
+
+This is somewhat deceiving because, although it is called "sql",
+there isn't really anything SQL-specific or even relational-database-specific
+about it.
+
+In fact, there are some non-relational databases that have Go
+client libraries that work with `"database/sql"`
