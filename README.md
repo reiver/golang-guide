@@ -10,6 +10,7 @@ Welcome to the **Golang Guide**.
   * [A Tour of Go](#a-tour-of-go)
 * [Development Environment](#development-environment)
 * [Tasks for Go Beginners](#tasks-for-go-beginners)
+* [HTTP](#http)
 * [Databases](#databases)
   * [Go database/sql Tutorial](#go-databasesql-tutorial)
 
@@ -244,6 +245,29 @@ Howdy Thomas
 (ℹ) **Hint**: figure out how to use the `"flag"` package: https://golang.org/pkg/flag/
 
 (The order that the flag appears should not matter.)
+
+---------------------------------------
+
+# HTTP
+
+If you have ever used the Web, you have probably seen _HTTP-URLs_.
+
+Things such as: http://changelog.ca/ and http://whatwg.org/
+
+(Those URLs start with the string "http".)
+
+Nowadays (at the time I am writing this) a lot of _backend development_
+amounts to writing HTTP-based APIs.
+
+(Sometimes some of these HTTP-based APIs (either accurately or inaccurately) gets
+called "REST" or "RESTful" APIs.)
+
+It actually wasn't always like this.
+
+But today it is, and you will likely be doing that (creating HTTP-based APIs), so
+you are going to learn how to create them.
+
+Like before, you are going to do this by completing a series of tasks.
 
 ---------------------------------------
 
