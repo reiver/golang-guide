@@ -46,7 +46,7 @@ Although in this guide I'm trying to write "Go" more than I do normally.)
 (If you are trying to find information on it in a search engine, my experience is that using
 "golang" seems to work better.)
 
-# A Tour of Go
+## A Tour of Go
 
 When I first started learning Go, I started with the _Go tour_.
 
