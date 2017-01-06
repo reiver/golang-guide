@@ -2,12 +2,38 @@
 
 Welcome to the **Golang Guide**.
 
-* Introduction
+* [Introduction](#introduction)
   * [Why](#why)
   * [Contacting Me](#contacting-me)
   * ["Go" versus "Golang"](#go-versus-golang)
-* For Beginners
+* [For Beginners](#for-beginners)
   * [A Tour of Go](#a-tour-of-go)
+
+---------------------------------------
+
+# Introduction
+
+The Go programming language is usually used for **backend development**.
+
+Although it is also sometimes use for _frontend development_ and _mobile development_.
+
+I personally mostly use it for _backend development_. but also use it
+for _data science_ and _machine learning_ activities too.
+
+He is what a simple Go program looks like:
+
+```go
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	fmt.Println("Hello world! 🙂")
+}
+
+```
 
 ## Why
 
@@ -45,6 +71,20 @@ Although in this guide I'm trying to write "Go" more than I do normally.)
 
 (If you are trying to find information on it in a search engine, my experience is that using
 "golang" seems to work better.)
+
+---------------------------------------
+
+# For Beginners
+
+I learned Go after I had been already programming for around a couple decades.
+
+I think it is a good programming language to learn for both beginners and the experienced.
+
+I like Go.
+
+I program in it a work.
+
+And it is the programming language I use when I program for fun.
 
 ## A Tour of Go
 
