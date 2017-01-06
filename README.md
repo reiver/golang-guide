@@ -125,3 +125,10 @@ I will mention which one I prefer after I list them out.)
 I have done all 4 of these.
 
 My current prefernce is to do #4 (**Docker install**).
+
+Now note, this does **not** mean I am editing files within the docker container.
+(I am not doing that.)
+
+But what it does mean it that I am _compiling_ Go code in the docker container.
+
+And it means that I am running tests in the docker container.
