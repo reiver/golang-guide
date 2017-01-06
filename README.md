@@ -163,6 +163,17 @@ Some are somewhat different from each other.
 
 And some are very very different.
 
+If you have some familiarity with databases already, then you probably are already
+familiar with words and phrases such as: _"SQL"_ (i.e., _"structured query language"_),
+_"relational databases"_, (the so-called) _"NoSQL"_ databases (which should have been called
+_"non-relational databases"_ since some of them actually use _SQL_ or a SQL-like query language), _"RDSMS"_, etc.
+
+But appending to a file can be a kind of database too.
+
+But that's going off on a tangent 🙂 that I don't want to go on right now.
+
+Let's take a look how Go deals with _SQL_, _relational databases_, and even some _non-relational databases_.
+
 ## Go database/sql Tutorial
 
 Go has a built-in (software) library for dealing with a number of different types of databases.
