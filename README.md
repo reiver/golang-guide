@@ -2,6 +2,9 @@
 
 Welcome to the **Golang Guide**.
 
+* [Why](#why)
+* ["Go" versus "Golang"](#go-versus-golang)
+
 ## Why
 
 This guide exists so that I can use it to train individuals
