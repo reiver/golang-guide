@@ -6,6 +6,8 @@ Welcome to the **Golang Guide**.
   * [Why](#why)
   * [Contacting Me](#contacting-me)
   * ["Go" versus "Golang"](#go-versus-golang)
+* For Beginners
+  * [A Tour of Go](#a-tour-of-go)
 
 ## Why
 
@@ -43,3 +45,19 @@ Although in this guide I'm trying to write "Go" more than I do normally.)
 
 (If you are trying to find information on it in a search engine, my experience is that using
 "golang" seems to work better.)
+
+# A Tour of Go
+
+When I first started learning Go, I started with the _Go tour_.
+
+https://tour.golang.org/
+
+I found it helpful.
+
+(Looking at it now, it looks like it has been enhanced since I
+originally went though it. So I would expect it to be even
+better 🙂)
+
+If you are just starting to learn Go, I suggest you start there.
+
+You can even write Go code in the web browser, and run it!
