@@ -8,6 +8,7 @@ Welcome to the **Golang Guide**.
   * ["Go" versus "Golang"](#go-versus-golang)
 * [For Beginners](#for-beginners)
   * [A Tour of Go](#a-tour-of-go)
+* [Development Environment](#development-environment)
 
 ---------------------------------------
 
@@ -101,3 +102,26 @@ better 🙂)
 If you are just starting to learn Go, I suggest you start there.
 
 You can even write Go code in the web browser, and run it!
+
+---------------------------------------
+
+# Development Environment
+
+Setting up a computer to be able to _program in_ and _compile programs written in_ Go is an important task
+you need to complete before you can really do anything "useful".
+
+(This gets called your "development environment".)
+
+There are four ways I have seen this done.
+
+(Nowadays, I prefer one of these four ways, over the others.
+I will mention which one I prefer after I list them out.)
+
+1. _Local Install_   - installing Go (or GB) on your local computer (such as your latop or desktop computer).
+2. _Remote Install_  - installing Go (or GB) on a remote computer, and then connecting to it to do your work (maybe over SSH or telnets).
+3. _Vagrant Install_ - having Go (or GB) installed in a _Vagrant_ box.
+4. _Docker Install_  - having Go (or GB) installed in a _Docker_ container.
+
+I have done all 4 of these.
+
+My current prefernce is to do #4 (**Docker install**).
