@@ -16,6 +16,9 @@ Welcome to the **Golang Guide**.
 * [HTTP](#http)
 * [Databases](#databases)
   * [Go database/sql Tutorial](#go-databasesql-tutorial)
+* [Packages](#packages)
+  * [Casting](#casting)
+  * [Dependency Injection](#dependency-injection)
 
 ---------------------------------------
 
@@ -322,3 +325,15 @@ about it.
 
 In fact, there are some non-relational databases that have Go
 client libraries that work with `"database/sql"`
+
+# Packages
+
+Here are some packages you can use to accomplish different things:
+
+## Casting
+
+**go-cast** - https://github.com/reiver/go-cast
+
+## Dependency Injection
+
+**go-container** - https://github.com/reiver/go-container
